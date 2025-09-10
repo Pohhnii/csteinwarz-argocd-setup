@@ -12,7 +12,6 @@ spec:
   tls:
   - hosts:
     - argocd.csteinwarz.de  # Replace with your domain
-    secretName: argocd-server-tls
   rules:
   - host: argocd.csteinwarz.de  # Replace with your domain
     http:
